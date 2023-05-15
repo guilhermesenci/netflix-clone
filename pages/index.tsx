@@ -7,7 +7,7 @@ import Billboard from "../components/Billboard";
 import MovieList from "../components/MovieList";
 import useMovieList from "../hooks/useMovieList";
 import InfoModal from "../components/InfoModal";
-import useInfoModal from "../hooks/useInfoMpdal";
+import useInfoModal from "../hooks/useInfoModal";
 
 export async function getServerSideProps(context: NextPageContext) {
   const session = await getSession(context);
